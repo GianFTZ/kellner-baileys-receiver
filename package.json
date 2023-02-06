@@ -1,0 +1,16 @@
+{
+  "name": "producer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@adiwajshing/baileys": "^5.0.0",
+    "axios": "^1.3.1",
+    "boom": "^7.3.0",
+    "qrcode-terminal": "^0.12.0",
+    "typescript": "^4.9.5"
+  },
+  "scripts": {
+    "dev": "npx ts-node-dev --respawn --transpile-only ./src/start/server.ts"
+  }
+}
